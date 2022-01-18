@@ -12,9 +12,11 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Zero to Hero in LWC</label>
     <navType>Standard</navType>
+    <tabs>standard-home</tabs>
     <tabs>Quiz_App</tabs>
     <tabs>Memory_Game_In_Lwc</tabs>
     <tabs>Lightning_Messaging_Service</tabs>
+    <tabs>Navigation</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Zero_to_Hero_in_LWC_UtilityBar</utilityBar>
 </CustomApplication>

@@ -11,6 +11,10 @@
         <enabled>true</enabled>
     </pageAccesses>
     <tabVisibilities>
+        <tab>Navigation</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Lightning_Messaging_Service</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
