@@ -3,17 +3,12 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>navigateToHome</componentName>
+                <componentName>cssInLwc</componentName>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>navigteToNavItemPage</componentName>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentName>navigateToWebPage</componentName>
+                <componentName>shadowDomStyling</componentName>
             </componentInstance>
         </itemInstances>
         <name>region1</name>
@@ -22,17 +17,7 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>navigateToObjectPage</componentName>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentName>navigateToRecordPage</componentName>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentName>navigateToRelatedRelationship</componentName>
+                <componentName>designSystemDemo</componentName>
             </componentInstance>
         </itemInstances>
         <name>region2</name>
@@ -41,28 +26,28 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>navigateToLwc</componentName>
+                <componentName>stylingOne</componentName>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>navigateToAuraComponent</componentName>
+                <componentName>stylingTwo</componentName>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>navigateToVfpage</componentName>
+                <componentName>designToken</componentName>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <componentName>currentReference</componentName>
+                <componentName>dynamicCss</componentName>
             </componentInstance>
         </itemInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Navigation</masterLabel>
+    <masterLabel>Styling in LWC</masterLabel>
     <template>
         <name>flexipage:appHomeTemplateThreeColumns</name>
     </template>
