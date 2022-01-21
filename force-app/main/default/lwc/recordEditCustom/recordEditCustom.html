@@ -1,0 +1,26 @@
+<!--
+  @description       : 
+  @author            : Anna Makhovskaya
+  @group             : 
+  @last modified on  : 01-21-2022
+  @last modified by  : Anna Makhovskaya
+-->
+<template>
+    <lightning-card title="Custom validton in lightning record edit form">
+        <lightning-record-edit-form
+        object-api-name={objectName}
+        onsubmit={handleSubmit}
+        onsuccess={successHandler}
+        onerror={errorHandler}
+        >
+    
+        <lightning-input label="Name"
+            value={name}
+            onkeyup={handleChange}
+            class="slds-m-bottm_x-small">
+        </lightning-input>
+
+        <lightning-button label="Create Account" type="submit" class="slds-m-bottm_x-small"></lightning-button>
+    </lightning-record-edit-form>
+    </lightning-card>
+</template>

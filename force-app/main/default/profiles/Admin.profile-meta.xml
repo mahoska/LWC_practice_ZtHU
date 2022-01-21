@@ -15,6 +15,10 @@
         <enabled>true</enabled>
     </pageAccesses>
     <tabVisibilities>
+        <tab>Lightning_Records_Forms</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Navigation</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>

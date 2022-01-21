@@ -18,6 +18,7 @@
     <tabs>Styling_in_LWC</tabs>
     <tabs>Lightning_Messaging_Service</tabs>
     <tabs>Navigation</tabs>
+    <tabs>Lightning_Records_Forms</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Zero_to_Hero_in_LWC_UtilityBar</utilityBar>
 </CustomApplication>
