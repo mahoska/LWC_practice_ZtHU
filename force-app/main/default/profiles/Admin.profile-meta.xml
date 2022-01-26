@@ -15,6 +15,14 @@
         <enabled>true</enabled>
     </pageAccesses>
     <tabVisibilities>
+        <tab>CRUD_uiRecordApi</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Wire_Adapter</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Lightning_Records_Forms</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>

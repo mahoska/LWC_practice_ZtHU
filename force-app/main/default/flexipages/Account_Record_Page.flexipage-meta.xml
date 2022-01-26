@@ -206,6 +206,21 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>getRecordUiDemo</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>getRecordDemo</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>getRecordGetFieldDemo</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>recordFormDemo</componentName>
             </componentInstance>
         </itemInstances>

@@ -1,0 +1,41 @@
+<!--
+  @description       : 
+  @author            : Anna Makhovskaya
+  @group             : 
+  @last modified on  : 01-25-2022
+  @last modified by  : Anna Makhovskaya
+-->
+<template>
+    <lightning-card title="getPicklistValueByRecordType Demo">
+        <div class="slds-var-p-around_medium">
+            <template if:true={ratingOptions}>
+                <lightning-combobox
+                name="rating"
+                label="Rating"
+                value={selectedRating}
+                placeholder="Select Rating"
+                options={ratingOptions}
+                onchange={handleChange} ></lightning-combobox>
+
+                <p>selectedRating:{selectedRating}</p>
+            </template>
+            
+
+            <template if:true={industryOptions}>
+                <lightning-combobox
+                name="industry"
+                label="Industry"
+                value={selectedIndustry}
+                placeholder="Select Industry"
+                options={industryOptions}
+                onchange={handleChange} ></lightning-combobox>
+
+                <p>selectedIndustry :{selectedIndustry}</p>
+            </template>
+
+           
+        </div> 
+        
+
+    </lightning-card>
+</template>

@@ -1,0 +1,19 @@
+<!--
+  @description       : 
+  @author            : Anna Makhovskaya
+  @group             : 
+  @last modified on  : 01-26-2022
+  @last modified by  : Anna Makhovskaya
+-->
+<template>
+    <lightning-card title="getRecordUi Demo">
+        <div class="slds-var-p-around_small">
+            <template for:each={formFields} for:item="field">
+                <div key={field.label}>
+                    <p><strong>{field.label}</strong></p>
+                    <p>{field.value}</p>
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>
