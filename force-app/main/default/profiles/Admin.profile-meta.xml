@@ -5,6 +5,10 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
+    <classAccesses>
+        <apexClass>AccountController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
     <pageAccesses>
         <apexPage>lmsVisualForceDemo</apexPage>
@@ -14,6 +18,10 @@
         <apexPage>navigateVfpage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
+    <tabVisibilities>
+        <tab>Apex_In_LWC</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>CRUD_uiRecordApi</tab>
         <visibility>DefaultOn</visibility>
