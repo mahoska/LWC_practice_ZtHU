@@ -19,6 +19,10 @@
         <enabled>true</enabled>
     </pageAccesses>
     <tabVisibilities>
+        <tab>Book_Listing_App</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Apex_In_LWC</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
