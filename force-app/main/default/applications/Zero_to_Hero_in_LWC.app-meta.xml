@@ -41,6 +41,7 @@
     <tabs>Lightning_Messaging_Service</tabs>
     <tabs>Navigation</tabs>
     <tabs>Lightning_Records_Forms</tabs>
+    <tabs>Fundamentals_In_LWC</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Zero_to_Hero_in_LWC_UtilityBar</utilityBar>
 </CustomApplication>
