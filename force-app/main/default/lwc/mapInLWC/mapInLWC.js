@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : Anna Makhovskaya
  * @group             : 
- * @last modified on  : 03-04-2022
+ * @last modified on  : 03-07-2022
  * @last modified by  : Anna Makhovskaya
 **/
 import { LightningElement, wire } from 'lwc';
@@ -27,6 +27,7 @@ export default class MapInLWC extends LightningElement {
 
     formatResponse(data) {
         this.mapMarkers = data.map(item => {
+
             return {
                 location: {
                     Street: item.BillingStreet || '',
@@ -38,8 +39,9 @@ export default class MapInLWC extends LightningElement {
                 icon: 'utility:salesforce1',
                 title: item.Name,
                 value: item.Name,
-                description: item.description
+                description: item.Description || ''
             }
+
         })
         console.log(this.mapMarkers);
         this.selectedMarker = this.mapMarkers.length && this.mapMarkers[0].value
