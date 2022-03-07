@@ -9,6 +9,10 @@
         <apexClass>AccountController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>MapControllerLwc</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
     <pageAccesses>
         <apexPage>lmsVisualForceDemo</apexPage>
@@ -60,6 +64,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Lightning_Messaging_Service</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Map_In_LWC</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
