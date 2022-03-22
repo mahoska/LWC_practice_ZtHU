@@ -6,12 +6,26 @@
                 <componentName>modalWrapper</componentName>
             </componentInstance>
         </itemInstances>
-        <name>main</name>
+        <itemInstances>
+            <componentInstance>
+                <componentName>csvDemo</componentName>
+            </componentInstance>
+        </itemInstances>
+        <name>column1</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentName>dateValidation</componentName>
+            </componentInstance>
+        </itemInstances>
+        <name>column2</name>
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Reusable Modal Component</masterLabel>
     <template>
-        <name>flexipage:defaultAppHomeTemplate</name>
+        <name>flexipage:appHomeTemplateTwoColumns</name>
     </template>
     <type>AppPage</type>
 </FlexiPage>

@@ -6,6 +6,10 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>CsvController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>AccountController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -30,6 +34,10 @@
         <apexPage>lmsVisualForceDemo</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
+    <tabVisibilities>
+        <tab>Custom_Carousel</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Chart_In_LWC</tab>
         <visibility>DefaultOn</visibility>
