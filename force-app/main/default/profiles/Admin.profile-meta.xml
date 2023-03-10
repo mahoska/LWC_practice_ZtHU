@@ -9,6 +9,10 @@
         <apexClass>CsvController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+     <classAccesses>
+        <apexClass>AccountContact</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <classAccesses>
         <apexClass>AccountController</apexClass>
         <enabled>true</enabled>

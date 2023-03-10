@@ -42,3 +42,4 @@ $RECYCLE.BIN/
 .history
 
 .force-app/main/default/appMenus/
+.force-app/main/default/applications/standard__*
